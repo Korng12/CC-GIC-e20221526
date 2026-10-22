@@ -1,0 +1,15 @@
+# Keys and credentials: never commit these
+*.pem
+*.ppk
+credentials
+.env
+.aws/
+
+# Terraform working files (Lab 10)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.zip
+
+# Node.js (Lab 11)
+node_modules/
